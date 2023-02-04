@@ -2,7 +2,7 @@
 A simple roblox Ui library used for exploiting
 
 ```lua
-local UILib = loadstring(game:HttpGet('https://raw.githubusercontent.com/StepBroFurious/Script/main/HydraHubUi.lua'))()
+local UILib = loadstring(game:HttpGet('https://raw.githubusercontent.com/shezan78/Hydra-Ui-Lib/main/Source.lua'))()
 local Window = UILib.new(gameName, userID, rank)
 ```
 
