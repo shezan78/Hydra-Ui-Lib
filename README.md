@@ -11,10 +11,13 @@ local Window = UILib.new(gameName, userID, rank)
 -- Other useful functions:
 -- Window:ChangeCategory(string new)
 -- Window:ChangeCategorySelection(string name) -- no fucking idea what this does
+```lua
 
 local Category = Window:Category(string name, string icon)
 local SubButton = Category:Button(string name, string icon)
 local Section = SubButton:Section(string name, string side (either Left or Right))
+
+```
 ```lua
 
   Section functions:
